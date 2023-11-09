@@ -1,2 +1,3 @@
 FROM node:18-alpine
-COPY . ./app
+WORKDIR '/myapp'
+ADD newfile .
